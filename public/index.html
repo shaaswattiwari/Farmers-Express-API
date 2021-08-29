@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Farmers Mandi</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="postget">
+      <div class="post">
+        <h2>POST</h2>
+        <form action="/reports" class="postform">
+          <label for="">userID <input type="text" name="userID" id="" /></label>
+          <label for=""
+            >marketID <input type="text" name="marketID" id="" required
+          /></label>
+          <label for=""
+            >marketName <input type="text" name="marketName" id=""
+          /></label>
+          <label for=""
+            >cmdtyID <input type="text" name="cmdtyID" id="" required
+          /></label>
+          <label for=""
+            >marketType <input type="text" name="marketType" id=""
+          /></label>
+          <label for=""
+            >cmdtyName <input type="text" name="cmdtyName" id=""
+          /></label>
+          <label for=""
+            >priceUnit <input type="text" name="priceUnit" id="" required
+          /></label>
+          <label for=""
+            >convFctr <input type="text" name="convFctr" id="" required
+          /></label>
+          <label for=""
+            >price <input type="text" name="price" id="" required
+          /></label>
+          <input type="submit" value="POST" class="submitbutton" />
+        </form>
+      </div>
+      <div class="get">
+        <h2>GET</h2>
+        <form action="/reports" class="getform">
+          <label for=""
+            >reportID
+            <input type="text" name="reportID" id="" required class="reportID"
+          /></label>
+          <input type="submit" value="GET" class="submitbutton" />
+        </form>
+      </div>
+    </div>
+    <div class="response">
+      <h2>Response</h2>
+      <p class="responsedata"></p>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  font-family: "montserrat";
+}
+body {
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  height: 100vh;
+}
+.postget {
+  display: flex;
+  flex-direction: column;
+}
+.postform {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.postform label {
+  height: 2.5rem;
+  font-size: 16px;
+}
+.postform label input {
+  padding: 5px;
+  font-size: 16px;
+}
+.postform input[type="submit"] {
+  height: 2rem;
+  width: 100%;
+  cursor: pointer;
+}
+.postform input[type="submit"]:active {
+  transform: scale(0.96);
+}
+.getform {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.getform label {
+  height: 2.5rem;
+  font-size: 16px;
+}
+.getform label input {
+  padding: 5px;
+  font-size: 16px;
+}
+.getform input[type="submit"] {
+  height: 2rem;
+  width: 100%;
+  cursor: pointer;
+}
+.getform input[type="submit"]:active {
+  transform: scale(0.96);
+}
+.response .responsedata {
+  min-height: 60vh;
+  width: 40vw;
+  border: 1px solid;
+  padding: 20px;
+  font-family: monospace;
+}
